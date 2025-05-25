@@ -1,0 +1,13 @@
+{
+  "name": "wdio-testes",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/local-runner": "^9.14.0",
+    "@wdio/mocha-framework": "^9.14.0",
+    "@wdio/spec-reporter": "^9.14.0",
+    "@wdio/visual-service": "^8.0.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  }
+}
